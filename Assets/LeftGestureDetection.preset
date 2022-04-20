@@ -1,0 +1,1543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeftGestureDetection
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: dfa6bc30d77e74c409184e3bb0bf853b, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: skeleton
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].name
+    value: ThumbsUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[0].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[1].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[2].x
+    value: 0.020069009
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[2].y
+    value: 0.011553991
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[2].z
+    value: 0.010497016
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[3].x
+    value: 0.03595839
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[3].y
+    value: 0.019157723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[3].z
+    value: 0.028028471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[4].x
+    value: 0.06211262
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[4].y
+    value: 0.01870854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[4].z
+    value: 0.047337603
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[5].x
+    value: 0.091767356
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[5].y
+    value: 0.015698716
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[5].z
+    value: 0.06325965
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[6].x
+    value: 0.09599621
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[6].y
+    value: 0.007316448
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[6].z
+    value: 0.023550654
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[7].x
+    value: 0.11033042
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[7].y
+    value: 0.04238379
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[7].z
+    value: 0.021736821
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[8].x
+    value: 0.08610058
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[8].y
+    value: 0.044088952
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[8].z
+    value: 0.020915521
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[9].x
+    value: 0.09564657
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[9].y
+    value: 0.002543149
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[9].z
+    value: 0.0017258909
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[10].x
+    value: 0.1047684
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[10].y
+    value: 0.04448629
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[10].z
+    value: 0.0011868462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[11].x
+    value: 0.07751857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[11].y
+    value: 0.046741497
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[11].z
+    value: 0.004554657
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[12].x
+    value: 0.08869374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[12].y
+    value: 0.006529309
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[12].z
+    value: -0.017465264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[13].x
+    value: 0.09321265
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[13].y
+    value: 0.04514886
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[13].z
+    value: -0.014498297
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[14].x
+    value: 0.067336544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[14].y
+    value: 0.04447719
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[14].z
+    value: -0.008488278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[15].x
+    value: 0.034073543
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[15].y
+    value: 0.0094198305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[15].z
+    value: -0.02299855
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[16].x
+    value: 0.07789581
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[16].y
+    value: 0.013691176
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[16].z
+    value: -0.03505402
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[17].x
+    value: 0.07847067
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[17].y
+    value: 0.043169934
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[17].z
+    value: -0.026427768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[18].x
+    value: 0.059025887
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[18].y
+    value: 0.04453545
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[18].z
+    value: -0.020719245
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[19].x
+    value: 0.10634516
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[19].y
+    value: 0.0117657995
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[19].z
+    value: 0.08270775
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[20].x
+    value: 0.07177256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[20].y
+    value: 0.02688832
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[20].z
+    value: 0.021239366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[21].x
+    value: 0.062785834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[21].y
+    value: 0.027040428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[21].z
+    value: 0.008964705
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[22].x
+    value: 0.05408125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[22].y
+    value: 0.024270166
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[22].z
+    value: -0.0052655637
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[23].x
+    value: 0.04749835
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[23].y
+    value: 0.025965739
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].fingerData.Array.data[23].z
+    value: -0.018619182
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[0].onRecognized.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].name
+    value: MiddlePinch
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[0].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[1].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[2].x
+    value: 0.020068992
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[2].y
+    value: 0.011553987
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[2].z
+    value: 0.010496998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[3].x
+    value: 0.03595839
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[3].y
+    value: 0.019157685
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[3].z
+    value: 0.028028494
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[4].x
+    value: 0.059303034
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[4].y
+    value: 0.040624622
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[4].z
+    value: 0.03518991
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[5].x
+    value: 0.08711892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[5].y
+    value: 0.05810945
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[5].z
+    value: 0.0272822
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[6].x
+    value: 0.09599623
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[6].y
+    value: 0.0073164697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[6].z
+    value: 0.023550693
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[7].x
+    value: 0.13387334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[7].y
+    value: 0.008225997
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[7].z
+    value: 0.02527568
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[8].x
+    value: 0.15266104
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[8].y
+    value: 0.023634966
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[8].z
+    value: 0.025775712
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[9].x
+    value: 0.09564659
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[9].y
+    value: 0.0025431563
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[9].z
+    value: 0.0017259197
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[10].x
+    value: 0.13149357
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[10].y
+    value: 0.025801964
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[10].z
+    value: -0.00236635
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[11].x
+    value: 0.12423734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[11].y
+    value: 0.0523246
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[11].z
+    value: -0.00067058916
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[12].x
+    value: 0.08869376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[12].y
+    value: 0.0065293377
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[12].z
+    value: -0.01746522
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[13].x
+    value: 0.12430768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[13].y
+    value: 0.02057408
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[13].z
+    value: -0.02488733
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[14].x
+    value: 0.14255683
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[14].y
+    value: 0.039790817
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[14].z
+    value: -0.026844375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[15].x
+    value: 0.034073558
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[15].y
+    value: 0.009419851
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[15].z
+    value: -0.022998562
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[16].x
+    value: 0.07789579
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[16].y
+    value: 0.013691179
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[16].z
+    value: -0.03505407
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[17].x
+    value: 0.10580397
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[17].y
+    value: 0.017878834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[17].z
+    value: -0.047192413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[18].x
+    value: 0.123170935
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[18].y
+    value: 0.024472572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[18].z
+    value: -0.055405937
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[19].x
+    value: 0.103091046
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[19].y
+    value: 0.06705879
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[19].z
+    value: 0.010819889
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[20].x
+    value: 0.16706003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[20].y
+    value: 0.04075215
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[20].z
+    value: 0.024812855
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[21].x
+    value: 0.10536129
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[21].y
+    value: 0.06808457
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[21].z
+    value: 0.0037962596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[22].x
+    value: 0.15513839
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[22].y
+    value: 0.060638182
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[22].z
+    value: -0.025618372
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[23].x
+    value: 0.14274445
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[23].y
+    value: 0.032211978
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].fingerData.Array.data[23].z
+    value: -0.061659526
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[1].onRecognized.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].name
+    value: RingPinch
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[0].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[1].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[2].x
+    value: 0.020069007
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[2].y
+    value: 0.011554007
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[2].z
+    value: 0.010497004
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[3].x
+    value: 0.035958435
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[3].y
+    value: 0.019157723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[3].z
+    value: 0.028028494
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[4].x
+    value: 0.06027269
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[4].y
+    value: 0.038942017
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[4].z
+    value: 0.036658995
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[5].x
+    value: 0.08522946
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[5].y
+    value: 0.051995084
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[5].z
+    value: 0.017984148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[6].x
+    value: 0.0959962
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[6].y
+    value: 0.007316441
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[6].z
+    value: 0.023550685
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[7].x
+    value: 0.13342425
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[7].y
+    value: 0.0052533527
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[7].z
+    value: 0.029326841
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[8].x
+    value: 0.15671666
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[8].y
+    value: 0.011362594
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[8].z
+    value: 0.032613993
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[9].x
+    value: 0.095646605
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[9].y
+    value: 0.0025431274
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[9].z
+    value: 0.0017259124
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[10].x
+    value: 0.1382907
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[10].y
+    value: -0.0019336818
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[10].z
+    value: -0.0003138141
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[11].x
+    value: 0.16377078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[11].y
+    value: 0.008502436
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[11].z
+    value: -0.0012279715
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[12].x
+    value: 0.08869379
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[12].y
+    value: 0.0065292944
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[12].z
+    value: -0.01746524
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[13].x
+    value: 0.12642512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[13].y
+    value: 0.014022693
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[13].z
+    value: -0.02385996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[14].x
+    value: 0.11986048
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[14].y
+    value: 0.03901697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[14].z
+    value: -0.017668296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[15].x
+    value: 0.03407355
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[15].y
+    value: 0.009419821
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[15].z
+    value: -0.022998577
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[16].x
+    value: 0.07789588
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[16].y
+    value: 0.013691179
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[16].z
+    value: -0.035054058
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[17].x
+    value: 0.10530208
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[17].y
+    value: 0.015196852
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[17].z
+    value: -0.04885163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[18].x
+    value: 0.122665085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[18].y
+    value: 0.018843126
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[18].z
+    value: -0.05874008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[19].x
+    value: 0.09577873
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[19].y
+    value: 0.05638903
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[19].z
+    value: -0.0038244277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[20].x
+    value: 0.17786042
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[20].y
+    value: 0.018554742
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[20].z
+    value: 0.034186818
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[21].x
+    value: 0.18212308
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[21].y
+    value: 0.025464999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[21].z
+    value: -0.0009121957
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[22].x
+    value: 0.0992691
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[22].y
+    value: 0.04907656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[22].z
+    value: -0.009348788
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[23].x
+    value: 0.14252208
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[23].y
+    value: 0.023216775
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].fingerData.Array.data[23].z
+    value: -0.067028634
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[2].onRecognized.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].name
+    value: Fist
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[0].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[1].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[2].x
+    value: 0.020068979
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[2].y
+    value: 0.0115540195
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[2].z
+    value: 0.010497002
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[3].x
+    value: 0.03595844
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[3].y
+    value: 0.019157676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[3].z
+    value: 0.028028479
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[4].x
+    value: 0.056096837
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[4].y
+    value: 0.04172366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[4].z
+    value: 0.039957836
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[5].x
+    value: 0.08007514
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[5].y
+    value: 0.05921223
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[5].z
+    value: 0.023797277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[6].x
+    value: 0.09599625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[6].y
+    value: 0.007316419
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[6].z
+    value: 0.023550639
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[7].x
+    value: 0.118261434
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[7].y
+    value: 0.03781405
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[7].z
+    value: 0.01999637
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[8].x
+    value: 0.09523201
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[8].y
+    value: 0.04542936
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[8].z
+    value: 0.021518255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[9].x
+    value: 0.09564657
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[9].y
+    value: 0.0025431635
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[9].z
+    value: 0.0017258981
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[10].x
+    value: 0.117486134
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[10].y
+    value: 0.039405383
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[10].z
+    value: -0.00090729847
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[11].x
+    value: 0.09136763
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[11].y
+    value: 0.047060646
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[11].z
+    value: 0.0033585462
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[12].x
+    value: 0.08869381
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[12].y
+    value: 0.0065292586
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[12].z
+    value: -0.017465271
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[13].x
+    value: 0.101616144
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[13].y
+    value: 0.043321624
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[13].z
+    value: -0.017637433
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[14].x
+    value: 0.07717377
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[14].y
+    value: 0.047803193
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[14].z
+    value: -0.008222859
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[15].x
+    value: 0.03407353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[15].y
+    value: 0.009419862
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[15].z
+    value: -0.022998562
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[16].x
+    value: 0.077895835
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[16].y
+    value: 0.013691158
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[16].z
+    value: -0.035054076
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[17].x
+    value: 0.08204807
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[17].y
+    value: 0.043344557
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[17].z
+    value: -0.028185531
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[18].x
+    value: 0.06436461
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[18].y
+    value: 0.044415094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[18].z
+    value: -0.018250644
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[19].x
+    value: 0.08790132
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[19].y
+    value: 0.061840773
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[19].z
+    value: 0.0006013604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[20].x
+    value: 0.08143126
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[20].y
+    value: 0.02792185
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[20].z
+    value: 0.0235881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[21].x
+    value: 0.07369621
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[21].y
+    value: 0.030234843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[21].z
+    value: 0.008766707
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[22].x
+    value: 0.06437515
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[22].y
+    value: 0.027581247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[22].z
+    value: -0.0035666402
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[23].x
+    value: 0.05331247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[23].y
+    value: 0.026212877
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].fingerData.Array.data[23].z
+    value: -0.012897362
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[3].onRecognized.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].name
+    value: PinkyPinch
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[0].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[1].x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[2].x
+    value: 0.020069001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[2].y
+    value: 0.011554006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[2].z
+    value: 0.010496998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[3].x
+    value: 0.03595837
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[3].y
+    value: 0.019157693
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[3].z
+    value: 0.028028483
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[4].x
+    value: 0.05586341
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[4].y
+    value: 0.044723526
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[4].z
+    value: 0.030724728
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[5].x
+    value: 0.07949479
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[5].y
+    value: 0.063273326
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[5].z
+    value: 0.015251221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[6].x
+    value: 0.09599616
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[6].y
+    value: 0.007316441
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[6].z
+    value: 0.023550654
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[7].x
+    value: 0.13317911
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[7].y
+    value: 0.013995726
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[7].z
+    value: 0.026911775
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[8].x
+    value: 0.1509397
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[8].y
+    value: 0.030541582
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[8].z
+    value: 0.028121503
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[9].x
+    value: 0.09564661
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[9].y
+    value: 0.0025431996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[9].z
+    value: 0.0017259197
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[10].x
+    value: 0.13784575
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[10].y
+    value: -0.0052594906
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[10].z
+    value: 0.0006913286
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[11].x
+    value: 0.16443789
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[11].y
+    value: 0.0019305155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[11].z
+    value: 0.00031374916
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[12].x
+    value: 0.08869372
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[12].y
+    value: 0.0065292874
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[12].z
+    value: -0.01746525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[13].x
+    value: 0.12619998
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[13].y
+    value: 0.013032473
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[13].z
+    value: -0.025931858
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[14].x
+    value: 0.14950769
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[14].y
+    value: 0.025135808
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[14].z
+    value: -0.029982317
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[15].x
+    value: 0.034073543
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[15].y
+    value: 0.009419831
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[15].z
+    value: -0.022998564
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[16].x
+    value: 0.07789578
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[16].y
+    value: 0.013691151
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[16].z
+    value: -0.035054065
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[17].x
+    value: 0.10229402
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[17].y
+    value: 0.032293703
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[17].z
+    value: -0.033498876
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[18].x
+    value: 0.10107087
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[18].y
+    value: 0.051565472
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[18].z
+    value: -0.027202014
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[19].x
+    value: 0.09075373
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[19].y
+    value: 0.06831081
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[19].z
+    value: -0.0060576936
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[20].x
+    value: 0.16674478
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[20].y
+    value: 0.046394594
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[20].z
+    value: 0.02775192
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[21].x
+    value: 0.18930803
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[21].y
+    value: 0.0040691537
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[21].z
+    value: -0.00092589215
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[22].x
+    value: 0.16795461
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[22].y
+    value: 0.041056126
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[22].z
+    value: -0.030797549
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[23].x
+    value: 0.088812426
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[23].y
+    value: 0.066270076
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].fingerData.Array.data[23].z
+    value: -0.016448665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gestures.Array.data[4].onRecognized.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debugMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boneInit
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
