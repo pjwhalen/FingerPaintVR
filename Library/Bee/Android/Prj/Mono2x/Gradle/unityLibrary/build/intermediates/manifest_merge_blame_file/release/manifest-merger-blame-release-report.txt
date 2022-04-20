@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-52
+13-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-49
+14    <uses-feature
+14-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-63
+16        android:required="false" />
+16-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:64-88
+17
+18    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+18-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-77
+18-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:24-74
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-65
+20-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-69
+21-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-66
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-78
+22-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-75
+23
+24    <uses-feature
+24-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-87
+25        android:name="android.hardware.microphone"
+25-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-59
+26        android:required="false" />
+26-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:60-84
+27    <uses-feature
+27-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-88
+28        android:name="android.hardware.touchscreen"
+28-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-60
+29        android:required="false" />
+29-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:61-85
+30    <uses-feature
+30-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-99
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-71
+32        android:required="false" />
+32-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:72-96
+33    <uses-feature
+33-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-108
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-80
+35        android:required="false" />
+35-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:81-105
+36    <uses-feature
+36-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-111
+37        android:name="android.hardware.vr.headtracking"
+37-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-64
+38        android:required="true"
+38-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:85-108
+39        android:version="1" />
+39-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:65-84
+40    <uses-feature
+40-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-87
+41        android:name="oculus.software.handtracking"
+41-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-60
+42        android:required="true" />
+42-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:61-84
+43
+44    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+44-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-73
+44-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:20-70
+45
+46    <application
+46-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-25:17
+47        android:allowBackup="false"
+47-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:114-141
+48        android:extractNativeLibs="true"
+48-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+49        android:icon="@mipmap/app_icon"
+49-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+50        android:label="@string/app_name"
+50-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+51        android:networkSecurityConfig="@xml/network_sec_config" >
+51-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+52        <activity
+52-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+53            android:name="com.unity3d.player.UnityPlayerActivity"
+53-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+54            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+54-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:204-305
+55            android:hardwareAccelerated="false"
+55-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:341-376
+56            android:launchMode="singleTask"
+56-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:172-203
+57            android:resizeableActivity="false"
+57-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:306-340
+58            android:screenOrientation="landscape"
+58-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-171
+59            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+59-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-133
+60            <intent-filter>
+60-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+61                <action android:name="android.intent.action.MAIN" />
+61-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+61-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+63-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+64                <category android:name="com.oculus.intent.category.VR" />
+64-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+64-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+65            </intent-filter>
+66
+67            <meta-data
+67-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+68                android:name="unityplayer.UnityActivity"
+68-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+69                android:value="true" />
+69-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+70            <meta-data
+70-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+71                android:name="android.notch_support"
+71-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+72                android:value="true" />
+72-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+73            <meta-data
+73-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+74                android:name="com.oculus.vr.focusaware"
+74-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+75                android:value="true" />
+75-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+76        </activity>
+77
+78        <meta-data
+78-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+79            android:name="unity.splash-mode"
+79-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+80            android:value="0" />
+80-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+81        <meta-data
+81-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+82            android:name="unity.splash-enable"
+82-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+83            android:value="True" />
+83-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+84        <meta-data
+84-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+85            android:name="unity.launch-fullscreen"
+85-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+86            android:value="True" />
+86-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+87        <meta-data
+87-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+88            android:name="unity.allow-resizable-window"
+88-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+89            android:value="False" />
+89-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+90        <meta-data
+90-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+91            android:name="notch.config"
+91-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+92            android:value="portrait|landscape" />
+92-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+93        <meta-data
+93-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-87
+94            android:name="com.oculus.handtracking.frequency"
+94-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-64
+95            android:value="MAX" />
+95-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:65-84
+96        <meta-data
+96-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-97
+97            android:name="com.samsung.android.vr.application.mode"
+97-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-70
+98            android:value="vr_only" />
+98-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:71-94
+99        <meta-data
+99-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-91
+100            android:name="com.unity.xr.oculus.LowOverheadMode"
+100-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-66
+101            android:value="false" />
+101-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:67-88
+102        <meta-data
+102-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-88
+103            android:name="com.unity.xr.oculus.LateLatching"
+103-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-63
+104            android:value="false" />
+104-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-85
+105        <meta-data
+105-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-93
+106            android:name="com.unity.xr.oculus.LateLatchingDebug"
+106-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-68
+107            android:value="false" />
+107-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:69-90
+108        <meta-data
+108-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-84
+109            android:name="com.oculus.supportedDevices"
+109-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-58
+110            android:value="quest2" />
+110-->P:\UnityProjects\Fingerpaint\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-81
+111    </application>
+112
+113</manifest>
