@@ -86,7 +86,10 @@ public class GestureDetection : MonoBehaviour
             currentGesture.onRecognized.Invoke();
         }
     }
-
+    
+    
+    // Credit to Valem for general gesture saving system
+    // https://www.youtube.com/watch?v=lBzwUKQ3tbw&ab_channel=Valem
     void Save()
     {
         Gesture g = new Gesture();
@@ -94,7 +97,7 @@ public class GestureDetection : MonoBehaviour
         List<Vector3> data = new List<Vector3>();
         foreach (var bone in fingerBones)
         {
-            //Finger position relative to root
+            //Finger position relative to root posit
             data.Add(skeleton.transform.InverseTransformPoint(bone.Transform.position));
         }
 
@@ -111,6 +114,7 @@ public class GestureDetection : MonoBehaviour
         {
             float sumDistance = 0;
             bool isDiscarded = false;
+            //Cycle through all finger bone positions and check distance from gesture's root positions
             for (int i = 0; i < fingerBones.Count; i++)
             {
                 Vector3 currentPosition = skeleton.transform.InverseTransformPoint(fingerBones[i].Transform.position);
@@ -122,6 +126,7 @@ public class GestureDetection : MonoBehaviour
                 }
                 sumDistance += distance;
             }
+            //If gesture isn't discarded and the sum of distances from the root is within threshold, most likely gesture detected
             if (!isDiscarded && sumDistance < currentMin)
             {
                 currentMin = sumDistance;
