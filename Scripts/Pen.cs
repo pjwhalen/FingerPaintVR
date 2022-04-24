@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-
+// Credit to Dilmer on some of the general line renderer concepts
+// https://www.youtube.com/watch?v=DFijT_S6FpM&ab_channel=DilmerValecillos
 
 public class Pen : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class Pen : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(DelayBoneInit(4.0f, SetHandStruct));
+        StartCoroutine(DelayBoneInit(4.0f, SetHandStruct)); //Hand tracking issues if this script starts before the hands have loaded in
     }
 
     public IEnumerator DelayBoneInit(float delayTime, Action nextAction)
@@ -78,6 +79,7 @@ public class Pen : MonoBehaviour
 
     private void PinchDetect()
     {
+        //Detects pinches with high confidence and either creates or updates line renderer
         bool isIndexFingerPinching = hand.GetFingerIsPinching(OVRHand.HandFinger.Index);
         OVRHand.TrackingConfidence confidence = hand.GetFingerConfidence(OVRHand.HandFinger.Index);
 
@@ -133,6 +135,7 @@ public class Pen : MonoBehaviour
         }
         else if (Mathf.Abs(Vector3.Distance(lastPointLocation, fingerTrack.transform.position)) >= 0.01f)
         {
+            //Need to frequently start new lines for smooth drawing
             lastPointLocation = fingerTrack.transform.position;
             currentLR.SetPosition(positionNum, lastPointLocation);
             positionNum++;
@@ -147,6 +150,7 @@ public class Pen : MonoBehaviour
         GameObject renderHouse = new GameObject("RenderHouse"+rhNum);
         renderHouse.tag = "RenderHouse";
         rhNum++;
+        // Avoid exceptions if hand tracking temp lost. 
         try{
             renderHouse.transform.position = fingerTrack.transform.position;
         }
@@ -193,6 +197,7 @@ public class Pen : MonoBehaviour
 
     public void Rave()
     {
+        //Strobe lines, not fully implemented yet
         // foreach (var line in lineList)
         // {
         //     Color randColor = new Color(UnityEngine.Random.Range(0,1), UnityEngine.Random.Range(0,1), UnityEngine.Random.Range(0,1));
