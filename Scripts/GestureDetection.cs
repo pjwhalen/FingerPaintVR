@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Gesture detection system and code from tutorial by Youtuber Valem
-// https://www.youtube.com/watch?v=lBzwUKQ3tbw&ab_channel=Valem
+
 [System.Serializable]
 public struct Gesture
 {
