@@ -5,8 +5,6 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-// I tried to write as much of this on my own as possible but the general format came from this tutorial
-// https://www.youtube.com/watch?v=DFijT_S6FpM&ab_channel=DilmerValecillos
 
 public class Pen : MonoBehaviour
 {
